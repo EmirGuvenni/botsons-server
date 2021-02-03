@@ -1,0 +1,28 @@
+{
+  "name": "botsons-server",
+  "version": "1.0.0",
+  "description": "botsons-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmirGuvenni/botsons-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmirGuvenni/botsons-server/issues"
+  },
+  "homepage": "https://github.com/EmirGuvenni/botsons-server#readme",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.14"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.10.3"
+  }
+}
